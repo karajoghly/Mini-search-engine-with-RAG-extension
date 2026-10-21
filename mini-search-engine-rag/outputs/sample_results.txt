@@ -1,0 +1,48 @@
+Mini Search Engine with RAG Extension
+=====================================
+
+Dataset Statistics
+------------------
+Number of documents: 1400
+Number of queries: 225
+Number of qrels: 225
+Number of unique terms: 4292
+
+Evaluation Results
+------------------
+MAP: 0.0071
+NDCG@10: 0.0097
+
+Sample Query
+------------
+Query ID: 1
+Query: what similarity laws must be obeyed when constructing aeroelastic models of heated high speed aircraft .
+
+Top 5 Retrieved Documents
+-------------------------
+1. Doc 51 | Score: 0.2744 | Relevance: 3
+theory of aircraft structural models subjected to aerodynamic heating and external loads .  theory of aircraft structural models subjected to aerodynamic heating and external loads . the problem of investigating the simultaneous effects of transient aerodynamic heating and external loads on aircraft
+
+2. Doc 184 | Score: 0.2573 | Relevance: 2
+scale models for thermo-aeroelastic research .  scale models for thermo-aeroelastic research . an investigation is made of the parameters to be satisfied for thermo-aeroelastic similarity .  it is concluded that complete similarity obtains only when aircraft and model are identical in all respects, 
+
+3. Doc 746 | Score: 0.2363 | Relevance: -1
+aeroelastic problems in connection with high speed flight .  aeroelastic problems in connection with high speed flight . a review is given of developments in the field of aeroelasticity during the past ten years .  the effect of steadily increasing mach number has been two-fold ..  on the one hand t
+
+4. Doc 12 | Score: 0.2083 | Relevance: 3
+some structural and aerelastic considerations of high speed flight .  some structural and aerelastic considerations of high speed flight . the dominating factors in structural design of high-speed aircraft are thermal and aeroelastic in origin .  the subject matter is concerned largely with a discus
+
+5. Doc 359 | Score: 0.2063 | Relevance: -1
+note on the hypersonic similarity law for an unyawed cone .  note on the hypersonic similarity law for an unyawed cone . it is now known that the hypersonic similarity law derived for slender cones and ogival bodies under the assumption, is applicable for mach numbers as low as 3 .  this note makes 
+
+RAG Generated Answer
+--------------------
+Based on the retrieved documents, the answer can be summarized as follows:
+
+Document 51 discusses: theory of aircraft structural models subjected to aerodynamic heating and external loads .  theory of aircraft structural models subjected to aerodynamic heating and external loads . the problem of investigating the simultaneous effects of transient aerodynamic heating and external loads on aircraft structures for the purpose of determining the ability of the structure to withstand flight to supersonic speeds is studied .  by dimensional analyses it is shown that .. constructed of the same mater
+
+Document 184 discusses: scale models for thermo-aeroelastic research .  scale models for thermo-aeroelastic research . an investigation is made of the parameters to be satisfied for thermo-aeroelastic similarity .  it is concluded that complete similarity obtains only when aircraft and model are identical in all respects, including size . by limiting consideration to conduction effects, by assuming the major load carrying parts of the structure are in regions where the flow is either entirely laminar, or entirely turbu
+
+Document 746 discusses: aeroelastic problems in connection with high speed flight .  aeroelastic problems in connection with high speed flight . a review is given of developments in the field of aeroelasticity during the past ten years .  the effect of steadily increasing mach number has been two-fold ..  on the one hand the aerodynamic derivatives have changed, and in some cases brought new problems, and on the other hand the design for higher mach numbers has led to thinner aerofoils and more slender fuselages for wh
+
+Overall, these documents provide information related to the query and can be used as supporting evidence for the generated answer.
